@@ -1,0 +1,8 @@
+{
+    "name": "Custom Bedrock Project",
+    "homepage": "https://github.com/CharlieFishtank/bedrock.git",
+    "repositories": [
+        { "type": "vcs", "url": "git@github.com:CharlieFishtank/bedrock.git" }
+    ],
+    "require-all": true
+}
