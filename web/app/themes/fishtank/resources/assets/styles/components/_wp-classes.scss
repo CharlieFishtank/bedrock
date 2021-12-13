@@ -5,34 +5,34 @@
 
 /** Media alignment */
 .alignnone {
-  margin-left: 0;
-  margin-right: 0;
-  max-width: 100%;
-  height: auto;
+	margin-left: 0;
+	margin-right: 0;
+	max-width: 100%;
+	height: auto;
 }
 
 .aligncenter {
-  display: block;
-  margin: (2rem / 2) auto;
-  height: auto;
+	display: block;
+	margin: (2rem / 2) auto;
+	height: auto;
 }
 
 .alignleft,
 .alignright {
-  margin-bottom: (2rem / 2);
-  height: auto;
+	margin-bottom: (2rem / 2);
+	height: auto;
 }
 
 @media (min-width: 30rem) {
-  .alignleft {
-    float: left;
-    margin-right: (2rem / 2);
-  }
+	.alignleft {
+		float: left;
+		margin-right: (2rem / 2);
+	}
 
-  .alignright {
-    float: right;
-    margin-left: (2rem / 2);
-  }
+	.alignright {
+		float: right;
+		margin-left: (2rem / 2);
+	}
 }
 
 /** Captions */
@@ -43,14 +43,14 @@
 
 /** Text meant only for screen readers */
 .screen-reader-text {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-  color: #000;
-  background: #fff;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+	color: #000;
+	background: #fff;
 }
