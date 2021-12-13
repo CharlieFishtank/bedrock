@@ -1,10 +1,19 @@
-# Application
+# Plugins
 web/app/plugins/*
 !web/app/plugins/.gitkeep
 web/app/mu-plugins/*/
-web/app/upgrade
+
+# Themes
+web/app/themes/*
+!web/app/themes/index.php
+!web/app/themes/fishtank/
+
+# Uploads
 web/app/uploads/*
 !web/app/uploads/.gitkeep
+
+# Application
+web/app/upgrade
 web/app/cache/*
 
 # WordPress
@@ -24,3 +33,6 @@ web/.htaccess
 
 # WP-CLI
 wp-cli.local.yml
+
+# System
+.DS_Store
