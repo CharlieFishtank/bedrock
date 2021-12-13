@@ -201,3 +201,8 @@ object {
 strong {
 	font-weight: bold;
 }
+
+input:focus,
+textarea:focus {
+	outline: 0;
+}
