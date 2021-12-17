@@ -29,6 +29,10 @@
       "url": "https://wpackagist.org",
       "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
     },
+    {
+      "type": "vcs",
+      "url": "https://github.com/CharlieFishtank/bedrock-fishtank.git"
+    },
 		{
 			"type": "package",
 			"package": {
