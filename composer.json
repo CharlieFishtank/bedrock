@@ -1,95 +1,93 @@
 {
-  "name": "CharlieFishtank/bedrock-fishtank",
-  "type": "project",
-  "license": "MIT",
-  "description": "WordPress boilerplate with modern development tools, easier configuration, and an improved folder structure",
-  "homepage": "https://roots.io/bedrock/",
-  "authors": [
-    {
-      "name": "Scott Walkinshaw",
-      "email": "scott.walkinshaw@gmail.com",
-      "homepage": "https://github.com/swalkinshaw"
-    },
-    {
-      "name": "Ben Word",
-      "email": "ben@benword.com",
-      "homepage": "https://github.com/retlehs"
-    }
-  ],
-  "keywords": [
-    "bedrock", "composer", "roots", "wordpress", "wp", "wp-config"
-  ],
-  "support": {
-    "issues": "https://github.com/roots/bedrock/issues",
-    "forum": "https://discourse.roots.io/category/bedrock"
-  },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://wpackagist.org",
-      "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/CharlieFishtank/bedrock-fishtank.git"
-    },
+	"name": "charliefishtank/bedrock-fishtank",
+	"type": "project",
+	"license": "MIT",
+	"description": "WordPress boilerplate with modern development tools, easier configuration, and an improved folder structure - adapted to the preferences of Fishtank Agency.",
+	"homepage": "https://roots.io/bedrock/",
+	"authors": [
 		{
-			"type": "package",
-			"package": {
-				"name": "advanced-custom-fields/advanced-custom-fields-pro",
-				"version": "5.7.13",
-				"type": "wordpress-plugin",
-				"dist": {
-					"type": "zip",
-					"url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k=b3JkZXJfaWQ9MTA4MTAzfHR5cGU9ZGV2ZWxvcGVyfGRhdGU9MjAxNy0wNi0wOSAxMzo1MToyMg=="
-				},
-				"require": {
-					"ffraenz/private-composer-installer": "^5.0"
-				}
-			}
+			"name": "Scott Walkinshaw",
+			"email": "scott.walkinshaw@gmail.com",
+			"homepage": "https://github.com/swalkinshaw"
+		},
+		{
+			"name": "Ben Word",
+			"email": "ben@benword.com",
+			"homepage": "https://github.com/retlehs"
 		}
-  ],
-  "require": {
-    "php": ">=7.4",
-    "composer/installers": "^1.12",
-    "vlucas/phpdotenv": "^5.3",
-    "oscarotero/env": "^2.1",
-    "roots/bedrock-autoloader": "^1.0",
-    "roots/bedrock-disallow-indexing": "^2.0",
-    "roots/wordpress": "5.8.2",
-    "roots/wp-config": "1.0.0",
-    "roots/wp-password-bcrypt": "1.1.0",
-    "advanced-custom-fields/advanced-custom-fields-pro": "^5.0.0",
+	],
+	"keywords": [
+		"bedrock",
+		"composer",
+		"roots",
+		"wordpress",
+		"wp",
+		"wp-config"
+	],
+	"support": {
+		"issues": "https://github.com/roots/bedrock/issues",
+		"forum": "https://discourse.roots.io/category/bedrock"
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://wpackagist.org",
+			"only": [
+				"wpackagist-plugin/*",
+				"wpackagist-theme/*"
+			]
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:charliefishtank/bedrock-fishtank.git"
+		}
+	],
+	"require": {
+		"php": ">=7.4",
+		"composer/installers": "^1.12",
+		"vlucas/phpdotenv": "^5.3",
+		"oscarotero/env": "^2.1",
+		"roots/bedrock-autoloader": "^1.0",
+		"roots/bedrock-disallow-indexing": "^2.0",
+		"roots/wordpress": "5.8.2",
+		"roots/wp-config": "1.0.0",
+		"roots/wp-password-bcrypt": "1.1.0",
 		"wpackagist-plugin/custom-post-type-ui": "^1.10",
 		"wpackagist-plugin/disable-gutenberg": "^2.5",
-		"wpackagist-plugin/safe-svg":"1.9.9",
+		"wpackagist-plugin/safe-svg": "1.9.9",
 		"wpackagist-plugin/wordpress-seo": "^17.5",
 		"wpackagist-plugin/wp-mail-smtp": "^3.1"
-  },
-  "require-dev": {
-    "squizlabs/php_codesniffer": "^3.6.0",
-    "roave/security-advisories": "dev-latest"
-  },
-  "config": {
-    "optimize-autoloader": true,
-    "preferred-install": "dist"
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "extra": {
-    "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
-      "web/app/themes/{$name}/": ["type:wordpress-theme"]
-    },
-    "wordpress-install-dir": "web/wp"
-  },
-  "scripts": {
-    "post-root-package-install": [
-      "php -r \"copy('.env.example', '.env');\""
-    ],
-    "test": [
-      "phpcs"
-    ]
-  }
+	},
+	"require-dev": {
+		"squizlabs/php_codesniffer": "^3.6.0",
+		"roave/security-advisories": "dev-latest"
+	},
+	"config": {
+		"optimize-autoloader": true,
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"extra": {
+		"installer-paths": {
+			"web/app/mu-plugins/{$name}/": [
+				"type:wordpress-muplugin"
+			],
+			"web/app/plugins/{$name}/": [
+				"type:wordpress-plugin"
+			],
+			"web/app/themes/{$name}/": [
+				"type:wordpress-theme"
+			]
+		},
+		"wordpress-install-dir": "web/wp"
+	},
+	"scripts": {
+		"post-root-package-install": [
+			"php -r \"copy('.env.example', '.env');\""
+		],
+		"test": [
+			"phpcs"
+		]
+	}
 }
