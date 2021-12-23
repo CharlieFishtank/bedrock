@@ -7,6 +7,7 @@ web/app/mu-plugins/*/
 web/app/themes/*
 !web/app/themes/index.php
 !web/app/themes/fishtank/
+!web/app/themes/sage
 
 # Uploads
 web/app/uploads/*
