@@ -38,8 +38,8 @@
 			]
 		},
 		{
-			"type": "vcs",
-			"url": "git@github.com:charliefishtank/bedrock-fishtank.git"
+			"url": "https://github.com/charliefishtank/bedrock-fishtank.git",
+			"type": "git"
 		}
 	],
 	"require": {
@@ -52,6 +52,7 @@
 		"roots/wordpress": "5.8.2",
 		"roots/wp-config": "1.0.0",
 		"roots/wp-password-bcrypt": "1.1.0",
+		"charliefishtank/sage": "9.x",
 		"wpackagist-plugin/custom-post-type-ui": "^1.10",
 		"wpackagist-plugin/disable-gutenberg": "^2.5",
 		"wpackagist-plugin/safe-svg": "1.9.9",
