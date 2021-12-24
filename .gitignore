@@ -8,6 +8,7 @@ web/app/themes/*
 !web/app/themes/index.php
 !web/app/themes/fishtank/
 !web/app/themes/sage
+!web/app/themes/sage-tree
 
 # Uploads
 web/app/uploads/*
