@@ -55,7 +55,7 @@
 		"charliefishtank/sage": "9.x",
 		"wpackagist-plugin/custom-post-type-ui": "^1.10",
 		"wpackagist-plugin/disable-gutenberg": "^2.5",
-		"wpackagist-plugin/safe-svg": "1.9.9",
+		"wpackagist-plugin/safe-svg": "2.0.0",
 		"wpackagist-plugin/wordpress-seo": "^17.5",
 		"wpackagist-plugin/wp-mail-smtp": "^3.1"
 	},
