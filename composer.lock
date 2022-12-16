@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "11914df8e39e5085b5f310ef3beaae84",
+    "content-hash": "4d35c4cdd8c1e629b76ec74cc0affd0a",
     "packages": [
         {
             "name": "charliefishtank/sage",
@@ -1113,15 +1113,15 @@
         },
         {
             "name": "wpackagist-plugin/custom-post-type-ui",
-            "version": "1.10.1",
+            "version": "1.13.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/custom-post-type-ui/",
-                "reference": "tags/1.10.1"
+                "reference": "tags/1.13.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.10.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.13.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1704,5 +1704,5 @@
         "php": ">=7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
